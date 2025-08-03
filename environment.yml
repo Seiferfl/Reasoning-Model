@@ -1,0 +1,21 @@
+name: reasoning-model
+channels:
+  - conda-forge
+  - pytorch # Add PyTorch's channel for better package resolution
+  - defaults
+dependencies:
+  - python=3.13
+  - gymnasium
+  - pytorch=2.7.1 # specify the version you want
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - tqdm
+  - stable-baselines3
+  - pip
+  - pip:
+    - wandb==0.21.0
